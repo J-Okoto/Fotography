@@ -114,7 +114,19 @@
   display: table;
   clear: both;
 }
-
+#servicesheadings {
+  color: rgb(255, 174, 23);
+}
+#pricing {
+  color: rgb(40, 240, 40);
+  font-size: 15px;
+  font-style: inherit;
+  font-family: cursive;
+  font-weight: 550;
+  border-style: ridge;
+  border-color: rgb(64, 167, 207);
+  border-width: 1.6px;
+}
 
 
 
