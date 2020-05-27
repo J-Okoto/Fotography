@@ -47,7 +47,7 @@ body {
     display: block;
     transition: 0.3s;
     background: none;
-    font-size: 25px;
+    font-size: 22px;
     border: none;
     width:auto;
     cursor: pointer;
@@ -180,28 +180,17 @@ section {
   font-weight: 700;
   text-decoration: underline;
 }
-
-
-/* Footer left */
-
 .footer-distributed .footer-left{
 	float: left;
 }
-
-/* The company logo */
-
 .footer-distributed h3{
 	color:  #ffffff;
 	font: normal 36px 'Roboto', cursive;
 	margin: 0 0 10px;
 }
-
 .footer-distributed h3 span{
 	color:  #5383d3;
 }
-
-/* Footer links */
-
 .footer-distributed .footer-links{
 	color:  #ffffff;
 	margin: 0 0 10px;
@@ -221,9 +210,6 @@ section {
 	font-weight: normal;
 	margin: 0;
 }
-
-/* Footer social icons */
-
 .footer-distributed .footer-icons{
 	margin-top: 40px;
 }
@@ -244,7 +230,6 @@ section {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
 .footer-distributed .footer-right{
 	float: right;
 }

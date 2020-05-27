@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -29,7 +30,7 @@
     </div>
     <a href="">Portfolio</a>
     <a href="">Testimony</a>
-    <a href="">Contact us</a>
+    <a href="#contacts">Contact us</a>
   </div>
 
 
@@ -172,7 +173,7 @@
         </div>
       </div>
       </div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="contacts">
       <div class="row">
         <div class="col-md-5 black">
           <div class="card bg-dark text-white">
@@ -256,9 +257,9 @@
 			  <div class="footer-right">
 				<p>Contact Us</p>
 				<form action="#" method="post">
-					<input type="text" name="email" placeholder="Email">
-					<textarea name="message" placeholder="Message"></textarea>
-					<button>Send</button>
+					<input type="text" name="email" placeholder="Email" required>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<button type="submit" onclick="thankYou()">Send</button>
 				</form>
 			</div>
 		</footer> 
