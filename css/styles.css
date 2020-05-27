@@ -65,6 +65,15 @@
 .dropdown-container a:hover {
   background-color: #262626;  
 }
+.container-fluid {
+    background-color:white;
+}
+img.card-img {
+    
+}
+.black {
+    margin-left: 10%;;
+}
  
   
   
