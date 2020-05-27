@@ -78,7 +78,7 @@
     padding-left: 8px;
     transition: 0.3s;
 }
-  .fa-caret-down {
+.fa-caret-down {
     float: right;
     padding: 5px;
 }
@@ -103,7 +103,7 @@ img.card-img {
   text-align: center;
   
 }
-.row {
+.row1 {
   box-sizing: border-box;
   width: 80%;
   padding-left: 300px;
@@ -122,6 +122,18 @@ img.card-img {
   display: table;
   clear: both;
 }
-
+#green {
+    color:white;
+    padding: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.img-content {
+    margin-left: 20%;
+}
+.img-content p {
+    margin-top: 2em;
+}
   
   
