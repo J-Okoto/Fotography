@@ -183,7 +183,7 @@
                 <span id="green">5th Avenue Moss street</span></p>
                 <p class="card-text"> <i class="fa fa-phone" aria-hidden="true"></i>
                 <a href="tel:0790943918" id="green">0790943918</a></p>
-              <p class="card-text"><i class="fa fa-envelope icon"></i>
+              <p class="card-text"><i class="fa fa-envelope"></i>
                  <a href="mailto:support@photogenesis.co.ke" id="green">support@photogenesis.co.ke </a>
               </p>
             </div>
@@ -192,32 +192,50 @@
         <div class="col-md-7">
           <form>
             <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Your Name">
+              <label for="formGroupExampleInput" >Name</label>
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Your Name">
+                </div>
             </div>
             <div class="form-group">
               <label for="formGroupExampleInput2">Email</label>
-              <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Photogenecis@gmail.com">
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Photogenecis@gmail.com">
+                </div>
             </div>
             <div class="form-group">
               <label for="formGroupExampleInput2">Phone Number</label>
-              <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="079 094 3918">
+                <div class="input-container">
+                  <i class="fa fa-phone icon"></i>
+                  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="079 094 3918">
+              </div>
             </div>
-            <select class="custom-select">
-              <option selected>Select your Service</option>
-              <option value="Wedding">Wedding</option>
-              <option value="Couple">Couple</option>
-              <option value="Indoor">Indoor</option>
-              <option value="Portrait">Portrait</option>
-              <option value="Nature">Nature</option>
-            </select>
+            <div class="input-container">
+              <i class="fa fa-camera icon"></i>
+              <select class="custom-select">
+                <option selected>Select your Service</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Couple">Couple</option>
+                <option value="Indoor">Indoor</option>
+                <option value="Portrait">Portrait</option>
+                <option value="Nature">Nature</option>
+              </select>
+            </div>
             <div class="form-group">
               <label for="formGroupExampleInput2">Booking Date</label>
-              <input type="date" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              <div class="input-container">
+                <i class="fa fa-calendar icon"></i>
+                <input type="date" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              </div>
             </div>
             <div class="form-group">
               <label for="formGroupExampleInput2">Booking time</label>
-              <input type="time" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              <div class="input-container">
+                <i class="fa fa-clock icon"></i>
+                <input type="time" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              </div>
             </div>
             <button type="button" class="btn btn-dark btn-center">Book</button>
           </form>
