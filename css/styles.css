@@ -1,4 +1,8 @@
-  HEAD
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 #left{
     border-radius: 50%;
     width: 150px;
@@ -134,6 +138,19 @@ img.card-img {
 }
 .img-content p {
     margin-top: 2em;
+}
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
 }
   
   
