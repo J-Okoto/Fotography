@@ -1,3 +1,27 @@
+  HEAD
+#left{
+    border-radius: 50%;
+    width: 150px;
+    float:left;
+    
+} 
+#right{
+    border-radius: 50%;
+    width: 150px;
+    float:right;
+
+}
+#about{
+    text-align:center;
+    padding-top: 180px;
+    background-size: cover;
+      height: 50vh;
+      text-align: center;
+        background-image: url("../images/animals/background.jpg");
+      padding-top:80px;
+      color:white;
+}
+
 /* The sidepanel menu */
 .sidepanel{
     height: 100%; 
@@ -75,7 +99,29 @@ img.card-img {
     margin-left: 45%;
     width: 120px;
 }
-
+.services {
+  text-align: center;
+  
+}
+.row {
+  box-sizing: border-box;
+  width: 80%;
+  padding-left: 300px;
+  line-height: 25px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+  font-size: 16px;  
+ color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
   
   

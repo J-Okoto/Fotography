@@ -1,50 +1,183 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Photo Genesis</title>
-    <link rel = "icon" href ="images/Icons/favicon.png" type = "image/x-icon"> 
-  </head>
-  <body>
-    <div id="mySidepanel" class="sidepanel">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href=" ">About Us</a>
-      <button class="dropdown-btn">Services
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-container">
-        <a class="dropdown-item" href=" ">Weddings</a>
-        <a class="dropdown-item" href=" ">Nature</a>
-        <a class="dropdown-item" href=" ">Indoors</a>
-        <a class="dropdown-item" href=" ">Couples</a>
-        <a class="dropdown-item" href=" ">Portrait</a>
-      </div>
-      <a href="">Portfolio</a>
-      <a href="">Testimony</a>
-      <a href="">Contact us</a>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title></title>
+</head>
+
+<body>
+  <button class="openbtn" onclick="openNav()">&#9776; HOME</button>
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href=" ">About Us</a>
+    <button class="dropdown-btn">Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+      <a class="dropdown-item" href=" ">Weddings</a>
+      <a class="dropdown-item" href=" ">Nature</a>
+      <a class="dropdown-item" href=" ">Indoors</a>
+      <a class="dropdown-item" href=" ">Couples</a>
+      <a class="dropdown-item" href=" ">Portrait</a>
     </div>
-    
-    <button class="openbtn" onclick="openNav()">&#9776; HOME</button>
-    <div class="container">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="images/animals/cheetah.jpeg" alt="Cheetah">
+    <a href="">Portfolio</a>
+    <a href="">Testimony</a>
+    <a href="">Contact us</a>
+  </div>
+
+
+  <div id="about" class="us">
+      <h2>ABOUT US</h2>
+      <img id="left" src="images/animals/image 2.jpg">
+      <p>We are Part of a Committed Team Providing you with the best Professional Photographers</p>
+      <img src="images/animals/rigt.jpg" id="right">
+    </div>
+    <div class="catelig">
+      <h3 id="head-title">FINDOUT MORE BY JUST A CLICK ON OUR BEST SHOTS</h3>
+      <div class="row">
+        <div class="col-md-6" id="design">
+          <div class="design-pic">
+            <img src="images/animals/image 3.jpg">
+            <h5>OUR MISSION</h5>
+          </div>
+        </div>
+        <div class="pic1-onclick">
+          <h5>OUR MISSION</h5>
+          <P>A catalyst for all to feel<br>See and Claim power<br>Appreciating each others Differences with your posts</P>
+        </div>
+        <div class="col-md-6" id="development">
+          <div class="development-pic">
+            <img src="images/ec255eb6a8581a0581a43f3f94c9c35d.jpg">
+            <h5>OUR ESSENCE</h5>
+          </div>
+        </div>
+        <div class="pic2-onclick">
+          <h5>OUR ESSENCE</h5>
+          <P>We Operate on imagination,Discoveries,Exclusiveness<br>and Diligency exclusive in all our works<br>Bringing
+            impact and smile to all to all our clients</P>
+        </div>
+      </div>
+    </div>
+
+
+<div class="services">
+        <h2>Our Services</h2>
+        <div class="row">
+          <div class="column" style="background-color:rgb(88, 88, 88);">
+            <h4><b>Nature</b></h4><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada ullamcorper velit.</p>
+            <img src="images/animals/nature_icon.jpg" alt="nature icon" width="100px" height="auto">
+          </div>
+          <div class="column" style="background-color:rgb(71, 71, 71);">
+            <h4><b>Wedding</b></h4><br>
+            <p>Nunc elementum consequat quam, in aliquam tortor imperdiet vel. Integer a iaculis dolor. Cras sodales.
+            </p>
+            <img src="images/animals/wedding_icon.jpg" alt="nature icon" width="100px" height="auto">
+          </div>
+          <div class="column" style="background-color:rgb(56, 55, 55);">
+            <h4><b>Couple</b></h4><br>
+            <p>Maecenas non vulputate odio. Donec ac dui velit. Etiam porttitor vitae massa ac sagittis. Aenean ipsum
+            </p>
+            <img src="images/animals/couple_icon.jpg" alt="nature icon" width="100px" height="auto">
+          </div>
+          <div class="column" style="background-color:rgb(56, 55, 55);">
+            <h4><b>Indoors</b></h4><br>
+            <p>Phasellus id congue erat. Morbi maximus leo eget malesuada consectetur. Donec ultricies nulla quis enim
+            </p>
+            <img src="images/animals/indoor_icon.jpg" alt="nature icon" width="100px" height="auto">
+          </div>
+          <div class="column" style="background-color:rgb(68, 59, 59);">
+            <h4><b>Portrait</b></h4><br>
+            <p>Vestibulum nec malesuada elit. Praesent mauris quam, pharetra nec tincidunt at, congue in odio. Nunc utus
+            </p>
+            <img src="images/animals/portrait_icon.jpg" alt="nature icon" width="100px" height="auto">
+          </div>
+          <div class="column" style="background-color:rgb(88, 88, 88);">
+            <h4><b>PhotoJournalism</b></h4><br>
+            <p>Nullam viverra convallis lacus vitae pulvinar. Vivamus rhoncus augue quis volutpat efficitur. Supu moto.
+            </p>
+            <img src="images/animals/photojournalism_icon.jpg" alt="nature icon" width="120px" height="auto">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Portfolio</p>
+        <div class="row"
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="images/animals/animals_collage.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Animal Photography</h5>
+              <p>Various animals,Nairobi Park.</p>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/animals/lion.jpeg" alt="Lion">
+          </div>
+          <div class="carousel-item ">
+            <img src="images/nature/nature_collage.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nature Photography</h5>
+              <p>Collection of nature photographs.</p>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="images/animals/elephant.jpeg" alt="Elephant">
+          </div>
+          <div class="carousel-item ">
+            <img src="images/wedding/wedding_collage.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wedding Photography</h5>
+              <p>Sample wedding Photographs.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="images/portrait/potrait_collage.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Potrait Photography</h5>
+              <p>Sample portrait Photographs.</p>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+  <br>
+  <div class="testimonials">
+  <p>  Testimonials</p>
+    <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Jane</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada ullamcorper velit.</p>
     </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>James</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada ullamcorper velit.</p>
+    </div>
+<<<<<<< HEAD
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-5 black">
@@ -108,4 +241,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
+=======
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+
+>>>>>>> 8a054958e8abc3a3f60593d35deaeb4afa83c218
 </html>
