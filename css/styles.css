@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+#left{
+    border-radius: 50%;
+    width: 150px;
+    float:left;
+    
+} 
+#right{
+    border-radius: 50%;
+    width: 150px;
+    float:right;
+
+}
+#about{
+    text-align:center;
+    padding-top: 180px;
+    background-size: cover;
+      height: 50vh;
+      text-align: center;
+        background-image: url("../images/animals/background.jpg");
+      padding-top:80px;
+      color:white;
+}
+=======
 /* The sidepanel menu */
 .sidepanel{
     height: 100%; 
@@ -68,3 +92,4 @@
  
   
   
+>>>>>>> c057a4f8f1f6d3a58cb2b79cea1898990f0a0dd5
