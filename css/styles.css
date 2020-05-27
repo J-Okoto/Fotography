@@ -106,7 +106,7 @@
   width: 33.33%;
   padding: 10px;
   height: 300px; 
-  font-size: 16px;  
+  font-size: 11px;  
  color: white;
 }
 .row:after {
@@ -114,5 +114,10 @@
   display: table;
   clear: both;
 }
+
+
+
+
+
   
   
