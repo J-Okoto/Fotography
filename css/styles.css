@@ -127,6 +127,17 @@
   border-color: rgb(64, 167, 207);
   border-width: 1.6px;
 }
+#row_testimonials {
+  text-align: center;
+  padding-left: 6px;
+}
+.testimonials {
+  width: 80%;
+  padding-left: 30px;
+}
+#testimonialsparagraph {
+  color: rgb(234, 253, 166); 
+}
 
 
 
