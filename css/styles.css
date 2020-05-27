@@ -1,0 +1,22 @@
+#left{
+    border-radius: 50%;
+    width: 150px;
+    float:left;
+    
+} 
+#right{
+    border-radius: 50%;
+    width: 150px;
+    float:right;
+
+}
+#about{
+    text-align:center;
+    padding-top: 180px;
+    background-size: cover;
+      height: 50vh;
+      text-align: center;
+        background-image: url("../images/animals/background.jpg");
+      padding-top:80px;
+      color:white;
+}
