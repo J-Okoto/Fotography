@@ -2,38 +2,39 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
      <link rel="stylesheet" href="css/font-awesome.css">
      <link rel="stylesheet" href="css/styles.css">
-    <title></title>
+    <title>Photo Genesis</title>
   </head>
-      <h1>Welcome to our Photography Website<h1>
-        <p>You can add your contributions here<p>
-
-<div class="container"
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    <img class="d-block w-100" src="images/animals/cheetah.jpeg" alt="Cheetah">
-  </div>
-  <div class="carousel-item">
-    <img class="d-block w-100" src="images/animals/lion.jpeg" alt="Lion">
-  </div>
-  <div class="carousel-item">
-    <img class="d-block w-100" src="images/animals/elephant.jpeg" alt="Elephant">
-  </div>
-</div>
-</div>
-</div>
-
-
-
   <body>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Portfolio</a>
+      <a href="">Testimony</a>
+      <a href="#">Contact us</a>
+    </div>
+    
+    <button class="openbtn" onclick="openNav()">&#9776; HOME</button>
+    <div class="container">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/animals/cheetah.jpeg" alt="Cheetah">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/animals/lion.jpeg" alt="Lion">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/animals/elephant.jpeg" alt="Elephant">
+            </div>
+          </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
