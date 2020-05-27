@@ -1,6 +1,6 @@
 /* The sidepanel menu */
-.sidepanel {
-    height: 250px; 
+.sidepanel{
+    height: 100%; 
     width: 0; 
     position: fixed;
     z-index: 1; 
@@ -12,7 +12,7 @@
     transition: 0.5s; 
 }
 /* The sidepanel links */
-.sidepanel a {
+.sidepanel a, .dropdown-btn {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -21,7 +21,7 @@
     transition: 0.3s;
 }
 /* When you mouse over the navigation links, change their color */
-.sidepanel a:hover {
+.sidepanel a:hover, .dropdown-btn:hover {
     color: #f1f1f1;
 }
 /* Position and style the close button (top right corner) */
@@ -32,5 +32,22 @@
     font-size: 36px;
     margin-left: 50px;
 }
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn:hover {
+    background-color: #444;
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
   
   
