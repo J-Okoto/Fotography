@@ -1,0 +1,70 @@
+/* The sidepanel menu */
+.sidepanel{
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+}
+/* The sidepanel links */
+.sidepanel a, .dropdown-btn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    background: none;
+    font-size: 25px;
+    border: none;
+    width:auto;
+    cursor: pointer;
+    
+}
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn:hover {
+    background-color: #444;
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+    transition: 0.3s;
+}
+  .fa-caret-down {
+    float: right;
+    padding: 5px;
+}
+.active {
+    background-color: green;
+    color: white;
+}
+.dropdown-container a:hover {
+  background-color: #262626;  
+}
+ 
+  
+  
