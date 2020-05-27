@@ -71,6 +71,10 @@
 img.card-img {
   background-color: #f1f1f1;  
 }
+.btn-center {
+    margin-left: 45%;
+    width: 120px;
+}
 
 
   
