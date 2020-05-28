@@ -512,17 +512,13 @@ body {
   col-sm-4{padding-left: 1px;
   padding-right: 1px;
 }
-.img-overlay-content {
-	margin-top: 45px;
+.myform{
+	float: right;
+	width: 90%;
 }
-.what-happened {
-	padding-top: 1.0em;
+.imageShow {
+	float: left;
 }
-.card img {
-	opacity:20% ;
-}
-
-.jumbotron {
-	height: 5px;
-
+label {
+	font-weight: 500;
 }
