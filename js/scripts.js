@@ -53,21 +53,23 @@ $(function(){
 });
 // toggle booking details
 // Business logic
-  function Booking(name,date,time,service){
-    this.myName= name;
-    this.myDate= date;
-    this.myTime= time;
-  }
-
-  $(function(){
-    Booking.prototype.fullDetails=function(){
-      return "Hi "+ this.myName +" Your booking on "+ "<br>"+ this.myDate + " at"+ this.myTime +"<br>"+ "Has been Sucessfully reserved! " 
-  }
-  $("form#bookingForm").submit(function(event){
-    event.preventDefault();
-    var inputedName=$("input#name").val();
-    var inputtedDate=$("input#date").val();
-    var inputtedTime=$("input#time").val();
-    var newBooking = new Booking(inputedName, inputtedDate,inputtedTime);
+$(function(){
+  $("#booking").submit(function(e){
+    e.preventDefault();
+    var inputedMail=$("form.myform input#mail").val();
+    var inputedName=$("form.myform input#name").val();
+    var inputedPhone=$("form.myform input#phone").val();
+    var inputedEvent=$(".service option:selected").val();
+    var inputtedDate=$("form.myform input#date").val();
+    var inputtedTime=$("form.myform input#time").val();
+    var Booking = (e, n, p, s, d, t, ) => {
+      return {e,n,p,s, d, t};
+  };
+  var newBooking = Booking(inputedMail, inputedName,inputedPhone,inputedEvent, inputtedDate,inputtedTime);
+  $('.imageShow').hide();
+  $('.showBooking').text(" ");
+        $(".showBooking").append("<br>"+"Dear" +"<p>"+"<strong>"+ newBooking.n+"</strong>"+ "Your Booking for "+"<strong>"+ newBooking.s+"</strong>"+" Photography Service on "
+        + newBooking.d+" at "+ newBooking.t+" hrs. has been confirmed."+ "<br>"+ "<br>"+"<br>"+ "Email : "+ newBooking.e+"&nbsp"+"&nbsp"+
+        "<br>"+"Phone Number :"+ newBooking.p+ "</p>"+ "<br>"  + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
   });
 });
