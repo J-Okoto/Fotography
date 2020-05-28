@@ -51,3 +51,23 @@ $(function(){
 
   });
 });
+// toggle booking details
+// Business logic
+  function Booking(name,date,time,service){
+    this.myName= name;
+    this.myDate= date;
+    this.myTime= time;
+  }
+
+  $(function(){
+    Booking.prototype.fullDetails=function(){
+      return "Hi "+ this.myName +" Your booking on "+ "<br>"+ this.myDate + " at"+ this.myTime +"<br>"+ "Has been Sucessfully reserved! " 
+  }
+  $("form#bookingForm").submit(function(event){
+    event.preventDefault();
+    var inputedName=$("input#name").val();
+    var inputtedDate=$("input#date").val();
+    var inputtedTime=$("input#time").val();
+    var newBooking = new Booking(inputedName, inputtedDate,inputtedTime);
+  });
+});
