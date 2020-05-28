@@ -530,12 +530,14 @@ label {
 	z-index: 99; 
 	border: none; 
 	outline: none; 
-	background-color: darkslateblue; 
+	background-color:inherit; 
 	color: white; 
 	cursor: pointer;
 	padding: 15px; 
 	border-radius: 10px;
 	font-size: 18px; 
+	color: black;
+	font-weight: 700;
 }
   
   #myBtn:hover {

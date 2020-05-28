@@ -73,3 +73,16 @@ $(function(){
         "<br>"+"Phone Number :"+"<strong>"+ newBooking.p+"</strong>"+ "</p>"+ "<br>"  +"<a href = 'index.html'>"+"<i class='fa fa-refresh'>"+"</i>"+"</a>"+ "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
   });
 });
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
