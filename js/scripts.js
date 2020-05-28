@@ -23,3 +23,9 @@ for (i = 0; i < dropdown.length; i++) {
 function thankYou(){
     alert("Thank you ,We appreciate your feedback!");
 }
+$(function(){
+  $("#mySidepanel a").on("click", function(){
+    $("#mySidepanel").hide(10000);
+
+  });
+});
