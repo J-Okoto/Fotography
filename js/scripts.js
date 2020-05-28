@@ -69,7 +69,7 @@ $(function(){
   $('.imageShow').hide();
   $('.showBooking').text(" ");
         $(".showBooking").append("<br>"+"Dear" +"<p>"+"<strong>"+ newBooking.n+"</strong>"+ "Your Booking for "+"<strong>"+ newBooking.s+"</strong>"+" Photography Service on "
-        + newBooking.d+" at "+ newBooking.t+" hrs. has been confirmed."+ "<br>"+ "<br>"+"<br>"+ "Email : "+ newBooking.e+"&nbsp"+"&nbsp"+
-        "<br>"+"Phone Number :"+ newBooking.p+ "</p>"+ "<br>"  + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
+        +"<em>"+ newBooking.d+"</em>"+" at "+"<em>"+ newBooking.t+" hrs. "+"</em>"+ "has been confirmed."+ "<br>"+ "<br>"+"<br>"+ "Email : "+"<strong>"+ newBooking.e+"</strong>"+"&nbsp"+"&nbsp"+
+        "<br>"+"Phone Number :"+"<strong>"+ newBooking.p+"</strong>"+ "</p>"+ "<br>"  +"<a href = 'index.html'>"+"<i class='fa fa-refresh'>"+"</i>"+"</a>"+ "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
   });
 });
