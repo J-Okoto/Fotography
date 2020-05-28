@@ -47,7 +47,7 @@ function thankYou(){
 }
 $(function(){
   $("#mySidepanel a").on("click", function(){
-    $("#mySidepanel").hide(10000);
+    $("#mySidepanel").width(0);
 
   });
 });
@@ -66,13 +66,14 @@ $(function(){
       return {e,n,p,s, d, t};
   };
   var newBooking = Booking(inputedMail, inputedName,inputedPhone,inputedEvent, inputtedDate,inputtedTime);
-  $('.imageShow').hide();
+  $('.imageShow').hide("slow");;
   $('.showBooking').text(" ");
         $(".showBooking").append("<br>"+"Dear" +"<p>"+"<strong>"+ newBooking.n+"</strong>"+ "Your Booking for "+"<strong>"+ newBooking.s+"</strong>"+" Photography Service on "
         +"<em>"+ newBooking.d+"</em>"+" at "+"<em>"+ newBooking.t+" hrs. "+"</em>"+ "has been confirmed."+ "<br>"+ "<br>"+"<br>"+ "Email : "+"<strong>"+ newBooking.e+"</strong>"+"&nbsp"+"&nbsp"+
         "<br>"+"Phone Number :"+"<strong>"+ newBooking.p+"</strong>"+ "</p>"+ "<br>"  +"<a href = 'index.html'>"+"<i class='fa fa-refresh'>"+"</i>"+"</a>"+ "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
   });
 });
+//top to bottom button
 mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
