@@ -1,4 +1,4 @@
-.row1{display:none}
+.row1{display:}
 .row2{display: none;}
 .row3{display: none;}
 
@@ -32,7 +32,7 @@ body {
       text-align: center;
         background-image: url("../images/animals/background.jpg");
       padding-top:80px;
-      color:white;
+      color:orange;
 }
 
 /* The sidepanel menu */
@@ -115,7 +115,9 @@ img.card-img {
 }
 .services {
   text-align: center;
-
+  margin-left: 150px;
+  margin-right: 150px;
+  color:orange;
 }
 .row1 {
   box-sizing: border-box;
@@ -380,9 +382,9 @@ section {
 	}
 }
 .testimonials {text-align: left;
-  color:Orange;
-
+  color:orange;
 }
+
 #row_testimonials{
 align-items: center;
 padding-left: 150px;}
@@ -424,8 +426,8 @@ body {
       color:white;
 }
 .card{
-  font-size: 25px;
-  width: 30rem;
+  font-size: 15px;
+  width: 25rem;
   background-image: url("../images/background.jpg");
   background-size: cover;
   padding-right: 50px;
@@ -480,8 +482,8 @@ body {
     background-color: #444;
 }
 .card-img-top{
-  height:300px;
-  width:225px;
+  height:400px;
+  width:300px;
 }
 .card-text{
   color:white;
@@ -495,7 +497,7 @@ body {
   color:springgreen;
 }
 #head-title{
-  color:firebrick;
+  color:orange;
   font-weight: 200px;
   text-align: center;
   text-decoration: salmon;
@@ -509,8 +511,8 @@ body {
 }
 #see{
   font-size: 30px;}
-  col-sm-4{padding-left: 1px;
-  padding-right: 1px;
+
+
 }
 .img-overlay-content {
 	margin-top: 45px;
@@ -518,11 +520,11 @@ body {
 .what-happened {
 	padding-top: 1.0em;
 }
-.card img {
-	opacity:20% ;
+
+
 }
 
 .jumbotron {
-	height: 5px;
+	height: 20px;
 
 }
