@@ -20,3 +20,6 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+function thankYou(){
+    alert("Thank you ,We appreciate your feedback!");
+}

@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <title></title>
 </head>
@@ -29,7 +30,7 @@
     </div>
     <a href="">Portfolio</a>
     <a href="">Testimony</a>
-    <a href="">Contact us</a>
+    <a href="#contacts">Contact us</a>
   </div>
 
 
@@ -115,7 +116,7 @@
 
       <div class="container">
         <p>Portfolio</p>
-        <div class="row"
+        <div class="row">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -163,6 +164,7 @@
       </div>
       </div>
       </div>
+<<<<<<< HEAD
 
 
   <div id="mySidepanel" class="sidepanel">
@@ -212,7 +214,116 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
+=======
+      <br>
+      <div class="testimonials">
+      <p>Testimonials</p>
+      <div class="row row1">
+        <div class="column" style="background-color:#aaa;">
+          <h2>Jane</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada ullamcorper velit.</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>James</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada ullamcorper velit.</p>
+        </div>
+      </div>
+      </div>
+    <div class="container-fluid" id="contacts">
+      <div class="row">
+        <div class="col-md-5 black">
+          <div class="card bg-dark text-white">
+            <img src="images/black.png" class="card-img" alt="...">
+            <div class="card-img-overlay img-content">
+              <h5 class="card-title text-center">Photo Genesis</h5>
+              <p class="card-text"><i class="fa fa-home"></i>
+                <span id="green">5th Avenue Moss street</span></p>
+                <p class="card-text"> <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:0790943918" id="green">0790943918</a></p>
+              <p class="card-text"><i class="fa fa-envelope"></i>
+                 <a href="mailto:support@photogenesis.co.ke" id="green">support@photogenesis.co.ke </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput" >Name</label>
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Your Name">
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Photogenecis@gmail.com">
+                </div>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Phone Number</label>
+                <div class="input-container">
+                  <i class="fa fa-phone icon"></i>
+                  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="079 094 3918">
+              </div>
+            </div>
+            <div class="input-container">
+              <i class="fa fa-camera icon"></i>
+              <select class="custom-select">
+                <option selected>Select your Service</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Couple">Couple</option>
+                <option value="Indoor">Indoor</option>
+                <option value="Portrait">Portrait</option>
+                <option value="Nature">Nature</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Booking Date</label>
+              <div class="input-container">
+                <i class="fa fa-calendar icon"></i>
+                <input type="date" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Booking time</label>
+              <div class="input-container">
+                <i class="fa fa-clock icon"></i>
+                <input type="time" min="2020-05-29" max="2030-08-26" class="form-control"> 
+              </div>
+            </div>
+            <button type="button" class="btn btn-dark btn-center">Book</button>
+          </form>
+        </div>
+      </div>
+      </div>  
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <h3>Photo<span> Genesis</span></h3>
+				  <p class="footer-company-name">Photo Genesis © 2020</p>
+				  <div class="footer-icons">
+					  <a href="#"><i class="fa fa-facebook"></i></a>
+					  <a href="#"><i class="fa fa-twitter"></i></a>
+					  <a href="#"><i class="fa fa-linkedin"></i></a>
+					  <a href="#"><i class="fa fa-github"></i></a>
+				</div>
+			  </div>
+			  <div class="footer-right">
+				<p>Contact Us</p>
+				<form action="#" method="post">
+					<input type="text" name="email" placeholder="Email" required>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<button type="submit" onclick="thankYou()">Send</button>
+				</form>
+			</div>
+		</footer> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+>>>>>>> 92391a4d5591b38fa60376aa50e5005823719d06
 </body>
-
-
 </html>
