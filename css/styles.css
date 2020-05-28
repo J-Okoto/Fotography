@@ -118,13 +118,38 @@ img.card-img {
   width: 33.33%;
   padding: 10px;
   height: 300px; 
-  font-size: 16px;  
+  font-size: 11px;  
  color: white;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#servicesheadings {
+  color: rgb(255, 174, 23);
+}
+#pricing {
+  color: rgb(40, 240, 40);
+  font-size: 15px;
+  font-style: inherit;
+  font-family: cursive;
+  font-weight: 550;
+  border-style: ridge;
+  border-color: rgb(64, 167, 207);
+  border-width: 1.6px;
+}
+#row_testimonials {
+  text-align: center;
+  padding-left: 6px;
+}
+.testimonials {
+  width: 80%;
+  padding-left: 30px;
+}
+#testimonialsparagraph {
+  color: rgb(234, 253, 166); 
 }
 #green {
     color:white;
@@ -169,7 +194,6 @@ img.card-img {
     overflow: hidden;
     margin-top: 2em;
 }
-
 section {
   width: 100%;
   display: inline-block;
@@ -345,6 +369,7 @@ section {
 		float: none;
 	}
 }
+
   
   
 
