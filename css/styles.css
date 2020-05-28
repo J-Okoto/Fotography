@@ -1,4 +1,30 @@
-.row1{display:none}
+.top-page {
+    background-image: url('../images/photogenesis.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:27%; 
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgba(0,0,0,0.4);
+}
+.top-page button{
+	position: fixed;
+    top: 0px !important;
+    left: 0px !important;
+}
+.top-page h1 {
+    padding: 2px;
+	margin-top:-200px;
+	font-weight: 1000;
+}
+.top-page p {
+	padding: 2px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.row1{display: none}
 .row2{display: none;}
 .row3{display: none;}
 
@@ -22,7 +48,6 @@ body {
     border-radius: 50%;
     width: 150px;
     float:right;
-
 }
 #about{
     text-align:center;
@@ -32,7 +57,7 @@ body {
       text-align: center;
         background-image: url("../images/animals/background.jpg");
       padding-top:80px;
-      color:white;
+      color:orange;
 }
 
 /* The sidepanel menu */
@@ -77,7 +102,7 @@ body {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
+    background-color:inherit;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -115,7 +140,9 @@ img.card-img {
 }
 .services {
   text-align: center;
-
+  margin-left: 150px;
+  margin-right: 150px;
+  color:orange;
 }
 .row1 {
   box-sizing: border-box;
@@ -380,9 +407,9 @@ section {
 	}
 }
 .testimonials {text-align: left;
-  color:Orange;
-
+  color:orange;
 }
+
 #row_testimonials{
 align-items: center;
 padding-left: 150px;}
@@ -424,8 +451,8 @@ body {
       color:white;
 }
 .card{
-  font-size: 25px;
-  width: 30rem;
+  font-size: 15px;
+  width: 25rem;
   background-image: url("../images/background.jpg");
   background-size: cover;
   padding-right: 50px;
@@ -471,8 +498,8 @@ body {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    background-color:inherit;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -480,8 +507,8 @@ body {
     background-color: #444;
 }
 .card-img-top{
-  height:300px;
-  width:225px;
+  height:400px;
+  width:300px;
 }
 .card-text{
   color:white;
@@ -495,7 +522,7 @@ body {
   color:springgreen;
 }
 #head-title{
-  color:firebrick;
+  color:orange;
   font-weight: 200px;
   text-align: center;
   text-decoration: salmon;
@@ -509,9 +536,6 @@ body {
 }
 #see{
   font-size: 30px;}
-  col-sm-4{padding-left: 1px;
-  padding-right: 1px;
-}
 .myform{
 	float: right;
 	width: 90%;
@@ -543,3 +567,4 @@ label {
   #myBtn:hover {
 	background-color: #555;
 }
+
