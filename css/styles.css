@@ -101,7 +101,8 @@ img.card-img {
 }
 .btn-center {
     margin-left: 45%;
-    width: 120px;
+	width: 120px;
+	margin-top: 2.5em;
 }
 .services {
   text-align: center;
