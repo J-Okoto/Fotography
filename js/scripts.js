@@ -1,3 +1,25 @@
+$(document).ready(function() {
+        $("button#portrait").click(function() {
+          $(".row1").show();
+          $(".row3").hide();
+        });
+  });
+
+  $(document).ready(function() {
+      $("button#wedding").click(function() {
+        $(".row2").show();
+        $(".row1").hide();
+      });
+  });
+  $(document).ready(function() {
+      $("button#nature").click(function() {
+        $(".row3").show();
+        $(".row2").hide();
+      });
+  });
+
+
+
 /* Set the width of the sidebar to 250px (show it) */
 function openNav() {
     document.getElementById("mySidepanel").style.width = "300px";
