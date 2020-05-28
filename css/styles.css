@@ -1,4 +1,4 @@
-.row1{display:}
+.row1{display:none}
 .row2{display: none;}
 .row3{display: none;}
 
@@ -7,14 +7,6 @@ margin-right: 20px;}
 
 .container{text-align: left;
 color: orange;}
-
-
-
-
-
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -118,7 +110,8 @@ img.card-img {
 }
 .btn-center {
     margin-left: 45%;
-    width: 120px;
+	width: 120px;
+	margin-top: 2.5em;
 }
 .services {
   text-align: center;
@@ -169,7 +162,7 @@ img.card-img {
   color: rgb(234, 253, 166);
 }
 #green {
-    color:white;
+    color: white;
     padding: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -517,4 +510,19 @@ body {
 #see{
   font-size: 30px;}
   col-sm-4{padding-left: 1px;
-  padding-right: 1px;}
+  padding-right: 1px;
+}
+.img-overlay-content {
+	margin-top: 45px;
+}
+.what-happened {
+	padding-top: 1.0em;
+}
+.card img {
+	opacity:20% ;
+}
+
+.jumbotron {
+	height: 5px;
+
+}
