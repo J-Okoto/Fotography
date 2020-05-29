@@ -1,8 +1,11 @@
 # Title
-Fotography
+
+Photo Genesis Studio
 
 
 ## Check it out
+
+https://j-okoto.github.io/Fotography/.
 
 ## Description:
 
@@ -14,7 +17,7 @@ J-Okoto,Frankline,Edwin and Sarah
 
 ## Screenshot:
 
-![picture](/images/Screenshot.png?raw=true "Title")
+![picture](/images/Screenshot2.png?raw=true "Title")
 
 ## Setup:
 
