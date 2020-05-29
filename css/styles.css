@@ -45,7 +45,7 @@ body {
 
 }
 #right{
-    border-radius: 50%;
+    border-radius: 80%;
     width: 150px;
     float:right;
 }
@@ -58,6 +58,7 @@ body {
         background-image: url("../images/animals/background.jpg");
       padding-top:80px;
       color:orange;
+
 }
 
 /* The sidepanel menu */
@@ -186,7 +187,8 @@ img.card-img {
   padding-left: 30px;
 }
 #testimonialsparagraph {
-  color: rgb(234, 253, 166);
+  color:white;
+  font-style: italic;
 }
 #green {
     color: white;
@@ -308,23 +310,20 @@ section {
 
 .footer-distributed form input,
 .footer-distributed form textarea{
-	display: block;
-	border-radius: 3px;
-	box-sizing: border-box;
-	background-color:  #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
-
-	font: inherit;
-	font-size: 14px;
-	font-weight: normal;
-	color:  #d1d2d2;
-
-	width: 400px;
-	padding: 18px;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  white;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  font: inherit;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  width: 400px;
+  padding: 18px;
 }
-
 .footer-distributed ::-webkit-input-placeholder {
 	color:  #5c666b;
 }
@@ -439,6 +438,7 @@ body {
     border-radius: 50%;
     width: 150px;
     float:right;
+    margin-top:-45px;
 }
 #about{
     text-align:center;
@@ -449,13 +449,15 @@ body {
         background-image: url("../images/background.jpg");
       padding-top:80px;
       color:white;
+      font-size: 15px;
 }
 .card{
   font-size: 15px;
-  width: 25rem;
+  width: 27rem;
   background-image: url("../images/background.jpg");
   background-size: cover;
-  padding-right: 50px;
+  padding-left:;
+
 }
 /* The sidepanel menu */
 .sidepanel{
@@ -507,7 +509,7 @@ body {
     background-color: #444;
 }
 .card-img-top{
-  height:400px;
+  height:350px;
   width:300px;
 }
 .card-text{
@@ -535,7 +537,7 @@ body {
   background-size: cover;
 }
 #see{
-  font-size: 30px;}
+  font-size: 20px;}
 .myform{
 	float: right;
 	width: 90%;
@@ -571,4 +573,9 @@ label {
 .imageShow img  {
 	border-radius: 20px;
 	opacity: 50%;
+}
+
+.services p{
+  font-size: 16px;
+  font-style: italic;
 }
