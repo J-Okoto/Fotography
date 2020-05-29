@@ -568,3 +568,7 @@ label {
 	background-color: #555;
 }
 
+.imageShow img  {
+	border-radius: 20px;
+	opacity: 50%;
+}
